@@ -1,0 +1,128 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  position: relative;
+}
+
+.search-bar {
+  background-color: white;
+  border: 1px solid #c6c7c8;
+  border-radius: 5px;
+  width: 25vw;
+  min-width: 200px;
+  height: 2rem;
+  outline: none;
+  margin: 0;
+  text-align: center;
+}
+
+.search-bar:hover {
+  background-color: white;
+  color: #8a817c;
+}
+.sort-tab {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding: 0 40px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.sort-item {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+
+.main-container {
+  margin-bottom: 5rem;
+}
+
+.item-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 16rem));
+  gap: 3rem;
+  justify-content: center;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  padding: 1.5rem;
+  cursor: pointer;
+  box-shadow: 20px 20px 60px #bfbfbf, -20px -20px 60px #ffffff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.item-list:active {
+  box-shadow: inset 7px 7px 8px 0 rgba(0, 0, 0, 0.2),
+    inset -7px -7px 20px 0 #f8f8f8;
+}
+
+.item-image-card {
+  text-align: center;
+}
+.item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-top: 0.5rem;
+}
+.item-title {
+  font-weight: 600;
+  font-size: 13px;
+  color: black;
+}
+.item-createdAt {
+  font-size: 10px;
+  color: #808080;
+}
+.item-price {
+  font-size: 13px;
+  color: black;
+}
+.item-image {
+  border: none;
+  border-radius: 5px;
+  height: 200px;
+  width: 200px;
+}
+.refresh-icon {
+  cursor: pointer;
+  margin: 0.5rem;
+  background-color: white;
+  color: #8a817c;
+}
+.refresh-icon:hover {
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (max-width: 650px) {
+  .sort-tab {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-direction: row;
+    margin: 2rem 0;
+  }
+}

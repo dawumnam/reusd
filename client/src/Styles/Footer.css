@@ -1,0 +1,19 @@
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 40px;
+  height: 40px;
+  background-color: #ed5237;
+  position: relative;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.copy-right {
+  font-size: 10px;
+  margin-right: 5%;
+  color: white;
+  background-color: #ed5237;
+}

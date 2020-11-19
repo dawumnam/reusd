@@ -1,0 +1,96 @@
+.LoginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.Login-container {
+  display: flex;
+  margin-top: 3rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+}
+.LoginTitle {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  font-size: 18px;
+}
+
+.LoginInputSection {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  gap: 1.8rem;
+  align-items: center;
+}
+
+.Loginbtn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ed5237;
+  background-color: #f8f8f8;
+  font-size: 12px;
+  font-weight: bold;
+  width: 50px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 2rem;
+  box-shadow: 2px 2px 6px #bfbfbf, -2px -2px 6px #ffffff;
+}
+.Loginbtn:hover {
+  background-color: white;
+}
+.Loginbtn:active {
+  box-shadow: inset 2px 2px 6px #bfbfbf, inset -2px -2px 6px #ffffff;
+  color: #808080;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.login-input {
+  border: none;
+  box-shadow: inset 2px 2px 6px #bfbfbf, inset -2px -2px 6px #ffffff;
+  border-radius: 20px;
+  width: 20vw;
+  min-width: 210px;
+  outline: none;
+  padding: 0.7rem 0.9rem;
+  text-align: left;
+}
+.login-input:focus {
+  background-color: white;
+}
+
+.additionInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 11px;
+  color: #808080;
+  align-items: center;
+}
+
+.forgotpass {
+  color: #808080;
+}
+
+.forgotpass:hover,
+.forgotpass:active {
+  color: #463f3a;
+}
+
+.direct-to-signup {
+  color: #ed5237;
+}
+.direct-to-signup:hover,
+.direct-to-signup:active {
+  color: #463f3a;
+}

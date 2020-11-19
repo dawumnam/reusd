@@ -1,0 +1,56 @@
+.file-upload {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  width: 40%;
+  min-width: 450px;
+  overflow-x: scroll;
+}
+.file-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  box-shadow: 5px 5px 15px #bfbfbf, -5px -5px 15px #ffffff;
+  border-radius: 5px;
+  color: #ed5237;
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+}
+.image-field {
+  height: 0;
+  width: 0;
+}
+
+.file-label:active {
+  box-shadow: inset 5px 5px 15px #bfbfbf, inset -5px -5px 15px #ffffff;
+  color: #ed5237;
+  background-color: white;
+}
+
+.PreviewFileArea {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  overflow-x: visible;
+}
+
+.previewImage {
+  min-width: 150px;
+  width: auto;
+  height: 150px;
+  margin-right: 1rem;
+  border-radius: 5px;
+  align-content: center;
+  cursor: pointer;
+}
+
+.previewImage:hover,
+.previewImage:active {
+  opacity: 60%;
+  border: 1px solid red;
+}

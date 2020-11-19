@@ -1,0 +1,77 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 0 40px;
+  margin-top: 0.5rem;
+  border-bottom: 1px solid #c6c7c8;
+}
+
+.logo {
+  height: 100px;
+  width: 110px;
+  flex-shrink: 0;
+}
+.nav-right,
+.nav-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+}
+.nav-list {
+  padding: 1rem;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-list-login-btn,
+.nav-list-profilebtn {
+  font-size: 14px;
+  padding: 1rem;
+  color: black;
+  cursor: pointer;
+}
+
+.nav-list:hover,
+.nav-list:active {
+  padding: 1rem;
+  color: #8a817c;
+  font-size: 16px;
+}
+.signout-button {
+  border: none;
+  background-color: #f8f8f8;
+  font-size: 13px;
+  cursor: pointer;
+  color: black;
+}
+
+.signout-button:hover {
+  color: #8a817c;
+}
+
+.dropdown-Navbar {
+  position: absolute;
+  margin-top: 3rem;
+  text-align: center;
+  border: 1px solid #c6c7c8;
+  background-color: white;
+  z-index: 1;
+}
+
+.dropdown-Navbar-list {
+  font-size: 11px;
+  padding: 1rem 0.5rem;
+  color: black;
+}
+.dropdown-Navbar-list:hover {
+  color: #8a817c;
+}

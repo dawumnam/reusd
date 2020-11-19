@@ -1,0 +1,111 @@
+.DetailProduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 5%;
+  align-items: center;
+}
+
+.Product-image-area {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.Product-userinfo-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 43%;
+  min-width: 500px;
+  padding: 2rem 0;
+}
+
+.Product-userinfo-name-location {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Product-userinfo-name {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.Product-userinfo-location {
+  font-size: 12px;
+  color: #808080;
+}
+
+.Product-detail-image {
+  width: 43%;
+  height: auto;
+}
+.Product-userinfo-rate {
+  font-weight: 600;
+}
+
+.Product-detailinfo-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 43%;
+  min-width: 500px;
+}
+
+.Product-detail-title-area {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-left: 1.8rem;
+}
+
+.Product-detail-createdAt-area {
+  font-size: 12px;
+  color: #808080;
+  margin-bottom: 1rem;
+  margin-left: 1.8rem;
+}
+
+.Product-detail-price-area {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  margin-left: 1.8rem;
+}
+
+.Product-detail-description-area {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  white-space: pre-line;
+  margin-left: 1.8rem;
+}
+
+.hrline {
+  border: 1px solid #d0cfcf;
+  width: 43%;
+  min-width: 450px;
+  margin-bottom: 1rem;
+}
+
+.Product-userinfo-startchat-area {
+  display: flex;
+}
+
+.Product-userinfo-startchat {
+  border: none;
+  box-shadow: 2px 2px 6px #bfbfbf, -2px -2px 6px #ffffff;
+  outline: none;
+  color: #ed5237;
+  padding: 0.7rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Product-userinfo-startchat:active {
+  box-shadow: inset 2px 2px 6px #bfbfbf, inset -2px -2px 6px #ffffff;
+  color: #808080;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
