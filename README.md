@@ -1,4 +1,4 @@
-# Reusd - Capstone Project
+# Reusd
 
 #### A web application that allows people to buy and sell used stuff online. 
 
